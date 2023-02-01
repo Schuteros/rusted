@@ -23,4 +23,4 @@ A Linux Desktop Enviroment (DE) written in Rust programming language (Rust). Let
 ## Reference
 * Desktop Enviroment elements: [DE](https://en.wikipedia.org/wiki/List_of_graphical_user_interface_elements)
 * Wayland (window system protocol and architecture): [Wayland](https://wayland.freedesktop.org)
-* Wayland and Rust: [Wayland-Rust](https://way-cooler.org/book/wayland_introduction.html)
+* Wayland and Rust: [Wayland-Rust](https://levans.fr/rust_wayland_1.html)
