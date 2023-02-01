@@ -21,6 +21,6 @@ A Linux Desktop Enviroment (DE) written in Rust programming language (Rust). Let
 5. Adjustment handle
 
 ## Reference
-Desktop Enviroment elements: https://en.wikipedia.org/wiki/List_of_graphical_user_interface_elements
-Wayland (window system protocol and architecture): https://wayland.freedesktop.org
-Wayland and Rust: https://way-cooler.org/book/wayland_introduction.html
+* Desktop Enviroment elements: [DE](https://en.wikipedia.org/wiki/List_of_graphical_user_interface_elements)
+* Wayland (window system protocol and architecture): [Wayland](https://wayland.freedesktop.org)
+* Wayland and Rust: [Wayland-Rust](https://way-cooler.org/book/wayland_introduction.html)
