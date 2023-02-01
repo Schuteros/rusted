@@ -1,5 +1,5 @@
 # rusted
-A Linux Desktop Enviroment (DE) written in Rust programming language. Let's see where it goes!
+A Linux Desktop Enviroment (DE) written in Rust programming language (Rust). Let's see where it goes!
 
 ## To-do list for minimal working version
 1. Find information and lay down the structure needed for basic Linux DE
@@ -22,4 +22,5 @@ A Linux Desktop Enviroment (DE) written in Rust programming language. Let's see 
 
 ## Reference
 Desktop Enviroment elements: https://en.wikipedia.org/wiki/List_of_graphical_user_interface_elements
-
+Wayland (window system protocol and architecture): https://wayland.freedesktop.org
+Wayland and Rust: https://way-cooler.org/book/wayland_introduction.html
