@@ -1,5 +1,5 @@
 # rusted
-A Linux Desktop Enviroment (DE) written in Rust programming language (Rust). Let's see where it goes!
+A Linux Desktop Enviroment (DE) written in Rust programming language (Rust). Let's see where it goes! ((The project will be stopped for some time to learn more about linux))
 
 ## To-do list for minimal working version
 1. Find information and lay down the structure needed for basic Linux DE
