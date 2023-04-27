@@ -2,16 +2,16 @@
 A Linux Desktop Enviroment (DE) written in Rust programming language (Rust). Let's see where it goes! ((The project will be stopped for some time to learn more about linux))
 
 ## To-do list for minimal working version
-1. Find information and lay down the structure needed for basic Linux DE
-2. Find crates which can help us on the way
-3. Good luck for all of us!
+1. Create WM (Window Manager) code with winit crate which will open on the start a window with rust-based terminal.
+2. Make a shortcut which let's user to toggle on/off terminal window
+3. Make a handler which resolves opening of new windows
+4. Enable window resizing graphically
 
 ### Structure of Lindux DE
 1. Window manager - windows display information, applications, erros, etc.
 2. Menu - allows access to different applications or settings trough Graphical User Interface (GUI).
-3. Icons - graphical representation of button whuich is shortcut to application or other things.
-4. Widgets
-5. Tabs
+3. Icons - graphical representation of button which is shortcut to application or other things.
+4. Widgets - panels with different kind of functions (something like Gnome Extensions)
 
 ### Elements of interaction
 1. Cursor
@@ -21,16 +21,12 @@ A Linux Desktop Enviroment (DE) written in Rust programming language (Rust). Let
 5. Adjustment handle
 
 ## For newbies like me
-1. Read about Desktop Enviroment elements: [DE](https://en.wikipedia.org/wiki/List_of_graphical_user_interface_elements)
-2. Then you can look into wayland:
-   - Architecture can be found here which is crucial to understand at least at some level: [architecture](https://wayland.freedesktop.org/architecture.html)
-   - You could also look at FAQ of Wayland: [FAQ](https://wayland.freedesktop.org/faq.html)
-   - Additionaly you can look more into the Wayland trough its ducomentation: [DOCS](https://wayland.freedesktop.org/docs/html/)
-3. It could be good to review Wayland trough Wayland book: [book](https://wayland-book.com/introduction.html)
-4. We are using smithay crate to interact with Wayland protocol and here you can learn more about it: [smithay](https://smithay.github.io/book/intro.html)
+1. Read about Window Manager: [WM](https://wiki.archlinux.org/title/Window_manager)
+2. Then you can look into winit crate:
+   - Git repository which has more guided text for newbies: [repository](https://github.com/rust-windowing/winit)
+   - Docs.rs for winit will show the documentation of winit crate: [docs.rs](https://docs.rs/winit/0.28.3/winit/)
 
 ## Reference
 * Desktop Enviroment elements: [DE](https://en.wikipedia.org/wiki/List_of_graphical_user_interface_elements)
-* Wayland (window system protocol and architecture): [Wayland](https://wayland.freedesktop.org)
-* Intro to Wayland: [intro](https://wayland-book.com/introduction.html)
-* Wayland with Rust trough smithay crate: [smithay](https://smithay.github.io/book/intro.html)
+* Window Manager (WM): [WM](https://wiki.archlinux.org/title/Window_manager)
+* Winit crate: [winit-git](https://github.com/rust-windowing/winit), [winit-docs.rs](https://docs.rs/winit/0.28.3/winit/)
